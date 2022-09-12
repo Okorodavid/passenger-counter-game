@@ -1,28 +1,51 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .4s;
+
+.game-box{
+    width: 25rem;
+    height: 25rem;
+    box-shadow: 0 0 8px;
+    margin-top: 30px;
+}
+
+button{
+    width: 7rem;
+    height: 2rem;
+    padding: 0 5px;
 }
 
 
-#increment-btn {
-    background: darkred;
-}
 
-#increment-btn:hover{
-    transform: scale(1.2);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
